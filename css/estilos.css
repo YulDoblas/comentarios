@@ -1,0 +1,225 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+/*=========== ESTILOS INDEX(LOGIN) =================*/
+
+	.container{
+		margin: auto;
+		background-color: lightgreen;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 40%;
+		height: 650px;
+		padding: 20px;
+		border-radius: 4px;
+	}
+
+	h2{
+		text-align: center;
+		padding-bottom: 5px; 
+	}
+
+	label{
+		padding-bottom: 5px;
+	}
+
+	input, select{
+		padding: 3px;
+	}
+
+	.ancho100{
+		width: 100%;
+		margin-top: 8px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+
+	.ancho60{
+		width: 65%;
+		margin-top: 8px;
+		margin-bottom: 5px;
+	}
+
+	.red{
+		color: #AB2727;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.float{
+		float: right;
+		margin-top: 8px;
+	}
+
+	.btn_reg{
+		margin-bottom: 20px;
+	}
+
+	.btn_entrar{
+		float: right;
+	}
+
+	a{
+		text-decoration:none;
+	}
+
+	.dos{
+		float: right;
+	}
+
+	.inputBtnTxt{
+		border: 0px;
+		border-color: transparent;
+		font-size: 16px;
+		background-color: transparent;
+		color: blue;
+		text-decoration: none;
+	}
+
+/*========== ESTILOS USUARIO REGISTRADO =============*/
+	.containerUser{
+		margin: auto;
+		width: 80%;
+		/*background-color: lightgreen;*/
+	}
+
+	.h2User{
+		text-align: center;
+		margin-bottom: 8px;
+	}
+
+	.comment{
+		width: 100%;
+		padding: 5px;
+		background-color: lightgray;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	textarea{
+		width: 100%;
+		height: 80px;
+		color: gray;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+
+	.inputUser{
+		float: right;
+	}
+
+	.usuarios{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.nomuser{
+		margin-bottom: 5px;
+		color: #518051;	
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+	.divBuscar{
+		margin-bottom: 20px;
+	}
+
+	.select{
+		margin-right: 40px;
+		width: 140px;
+	}
+
+	.txtBuscar{
+		width: 140px;
+	}
+
+	.btnBuscar{
+		margin-right: 40px;
+	}
+
+	.optionSel{
+		color: gray;
+	}
+
+	.todoComments{
+		overflow: auto;
+		height: 140px;
+		padding: 8px 30px 8px 8px;
+	}
+
+	.todoCommentsAr{
+		margin-bottom: 18px;
+	}
+
+	.salida{
+		float: right;
+	}
+
+	.fecha{
+		color: gray;
+		/*float: right;*/
+		font-size: 14px;
+		font-style: italic;
+	}
+
+	.errores{
+		margin-bottom: 15px;
+	}
+
+/*========== ESTILOS ADMINISTRADOR =============*/
+.containerAdmin{
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+}
+
+.divTitles{
+	background-color: lightgray; 
+	padding: 8px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.formUsu{
+	margin-bottom: 10px;
+}
+
+.secUsuDelete, .allUsers{
+	padding: 8px;
+	height: 280px;
+}
+
+.secUsuDelete{
+	width: 50%;
+	float: right;
+}
+
+.allUsers{
+	width: 50%;
+	float: left;
+}
+
+.mostrarUsers{
+	height: 225px;
+	overflow: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    /*border: 1px solid #dddddd;*/
+    text-align: left;
+    padding: 8px;
+}
+

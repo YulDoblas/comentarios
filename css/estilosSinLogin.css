@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: auto;
+	width: 75%;
+	padding-top: 20px;
+}
+
+h4{
+	color: #518051;
+}
+
+.totalComments{
+	color:black;
+}
+
+.todoComments{
+	height: 550px;
+	overflow: auto;
+	padding: 8px;
+}
+
+.comment{
+	width: 100%;
+	padding: 15px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.usuarios{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.nomuser{
+	margin-bottom: 5px;
+}
